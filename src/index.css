@@ -1,0 +1,58 @@
+*{
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  background-color: rgb(121, 121, 121);
+}
+
+.content{
+  height: 60vh;
+}
+
+.heading{
+  background-color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 200;
+  color: rgb(106, 106, 106);
+}
+
+.button{
+  border: 1px solid;
+  text-decoration: none;
+  color:rgb(27, 27, 27);
+  padding: 0.5rem 1rem;
+  transition: 0.4s ease;
+}
+
+.button:hover{
+  color: aliceblue !important;
+  border-color: aliceblue !important;
+  background-color: rgb(27, 27, 27) ;
+}
+
+.card-img-top{
+  border-radius: 2rem 2rem 0rem 0rem;
+  height: 15rem;
+}
+.card{
+  border-radius: 2rem;
+  margin: 2rem;
+  box-shadow: 0.1rem 0.5rem 2rem -1rem rgba(59, 59, 59, 0.78);
+  transition: 0.5s ease;
+}
+
+.card:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+  box-shadow: 3rem 2rem 6rem -3rem rgba(59, 59, 59, 0.78);
+}
